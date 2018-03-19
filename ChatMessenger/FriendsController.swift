@@ -115,6 +115,8 @@ class FriendCell: BaseCell {
         containerView.addSubview(timeLabel)
         containerView.addSubview(hasReadImageView)
         
+        
+        
         containerView.addConstraintsWithFormat("H:|[v0][v1(80)]-12-|", views: nameLabel, timeLabel)
         
         containerView.addConstraintsWithFormat("V:|[v0][v1(24)]|", views: nameLabel, messageLabel)

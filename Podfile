@@ -6,6 +6,6 @@ target 'ChatMessenger' do
   use_frameworks!
 
   # Pods for ChatMessenger
-  pod 'SnapKit', '~> 4.0.0'
+  pod 'SnapKit', '~> 4.0'
 
 end
